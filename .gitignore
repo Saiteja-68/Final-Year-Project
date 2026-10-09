@@ -1,10 +1,9 @@
-# Simulink temporary files
-slprj/
-*.slxc
-*.autosave
-*_backup*
+# Protect proteus directory from temporary backup files
+proteus/*.DBK
+proteus/*.pdsbak
+proteus/*.workspace
 
-# Proteus temporary files
-*.DBK
-*.pdsbak
-*.workspace
+# Protect simulink directory from cache folders
+simulink/slprj/
+simulink/*.slxc
+simulink/*.autosave
