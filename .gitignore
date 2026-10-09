@@ -1,0 +1,10 @@
+# Simulink temporary files
+slprj/
+*.slxc
+*.autosave
+*_backup*
+
+# Proteus temporary files
+*.DBK
+*.pdsbak
+*.workspace
